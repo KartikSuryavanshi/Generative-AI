@@ -5,15 +5,14 @@ Kartik Suryavanshi
 
 ---
 
+
 ## 📌 About This Repository
-This repository contains my **hands-on learning and experimentation with Generative AI**, implemented using **Python and Jupyter Notebooks**.
+This repository documents my **hands-on learning journey in Generative AI**, implemented using **Python and Jupyter Notebooks**.
 
-The work focuses on:
-- Interacting with **Large Language Models (LLMs)** via the OpenAI API
-- Using **LangChain** for prompt management, chains, agents, tools, and document loaders
-- Building practical GenAI workflows instead of just theory
+The focus is on **practical implementation**, not just theory.  
+All concepts are learned by **writing real code**, experimenting with models, tools, and frameworks used in production-grade GenAI systems.
 
-This repository is updated **incrementally as new concepts are learned and implemented**.
+This repository is **continuously updated** as I learn new concepts.
 
 ---
 
@@ -116,11 +115,46 @@ This repository is updated **incrementally as new concepts are learned and imple
 
 ---
 
+## 🔹 Memory in LangChain
+Understanding how chatbots **remember context**.
+
+### ✔ ConversationBufferMemory
+- Stores entire conversation history
+- Useful for chatbots
+- Grows endlessly
+
+### ✔ ConversationBufferWindowMemory
+- Stores only last `k` interactions
+- Prevents memory overflow
+- More production-friendly
+
+### ✔ ConversationChain
+- ChatGPT-like conversational behavior
+- Maintains context across messages
+
+📓 Notebook:
+- `langchain.ipynb`
+
+---
+## 🔹 Hugging Face Models
+- Using open-source models via **Hugging Face Hub**
+- Running models without OpenAI dependency
+- Using `google/flan-t5-large`
+- Comparing closed-source vs open-source LLMs
+- Understanding limitations of smaller open models
+
+📓 Notebook:
+- `LangChain_Course+_Complete.ipynb`
+
+
+---
+
 ## 🛠 Tech Stack Used
 - Python
 - Jupyter Notebook
 - OpenAI API
 - LangChain
+- Hugging Face Hub
 - SerpAPI
 - Wikipedia API
 - PyPDF
@@ -133,7 +167,8 @@ This repository is updated **incrementally as new concepts are learned and imple
 3. Set your API keys as environment variables:
 export OPENAI_API_KEY="your_openai_api_key"
 export SERPAPI_API_KEY="your_serpapi_api_key"
-4. Run the notebook cells sequentially
+export HUGGINGFACEHUB_API_TOKEN = "your_huggingface_api_token"
+5. Run the notebook cells sequentially
 
 ---
 
