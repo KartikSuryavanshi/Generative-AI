@@ -34,6 +34,9 @@ Alongside notebooks, I have built a **complete end-to-end project** using the co
 📌 Repository:
 👉 https://github.com/KartikSuryavanshi/MCQ-Generator
 
+<img width="701" height="770" alt="Screenshot 2026-01-07 at 11 15 21 AM" src="https://github.com/user-attachments/assets/7877c756-ffa7-47d6-943c-c91fa53f5db4" />
+
+
 This project demonstrates how notebook-level concepts scale into a **real GenAI application**.
 
 ---
