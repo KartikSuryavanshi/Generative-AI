@@ -163,6 +163,31 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
 
 ---
 
+### 🔹 Vector Databases & Embeddings (NEW)
+Recently learned and implemented **core concepts behind vector-based AI systems**, which are fundamental to **RAG, semantic search, and memory-based AI applications**.
+
+**Concepts Covered:**
+- What embeddings are and why they are needed  
+- Word embeddings, image embeddings, and multimodal embeddings  
+- Converting **data → vector representations** using models  
+- How semantic similarity works in vector space  
+- Storing embeddings inside **vector databases**  
+- Vector similarity search (cosine similarity, dot product, Euclidean distance)  
+- End-to-end flow:  
+  **Data → Embeddings → Vector Database → Query → Relevant Results**
+- Real-world applications:
+  - Retrieval-Augmented Generation (RAG)
+  - Semantic search
+  - Recommendation systems
+  - Chatbots with memory
+
+📄 **Detailed Explanation PDF (Added to Repository):**
+- `Vector_Databases_and_Embeddings_Explained.pdf`
+
+This PDF provides **in-depth explanations with examples**, making it beginner-friendly while still aligned with **industry practices**.
+
+---
+
 ## 🛠 Tech Stack Used
 - Python  
 - Jupyter Notebook  
@@ -172,7 +197,8 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
 - SerpAPI  
 - Wikipedia API  
 - PyPDF  
-- Streamlit  
+- Streamlit
+- Vector Embeddings/ Databases
 
 ---
 
