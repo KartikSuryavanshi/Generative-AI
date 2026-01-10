@@ -163,8 +163,7 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
 
 ---
 
-### 🔹 Vector Databases & Embeddings (NEW)
-Recently learned and implemented **core concepts behind vector-based AI systems**, which are fundamental to **RAG, semantic search, and memory-based AI applications**.
+### 🔹 Vector Databases & Embeddings
 
 **Concepts Covered:**
 - What embeddings are and why they are needed  
@@ -183,8 +182,6 @@ Recently learned and implemented **core concepts behind vector-based AI systems*
 
 📄 **Detailed Explanation PDF (Added to Repository):**
 - `Vector_Databases_and_Embeddings_Explained.pdf`
-
-This PDF provides **in-depth explanations with examples**, making it beginner-friendly while still aligned with **industry practices**.
 
 ---
 
