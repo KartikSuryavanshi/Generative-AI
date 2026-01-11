@@ -185,7 +185,7 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
 
 ---
 
-### 🔹 Pinecone Vector Database (NEW)
+### 🔹 Pinecone Vector Database
 
 - Creating a Pinecone index
 - Choosing vector dimensions and similarity metrics
@@ -221,10 +221,15 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 1. Clone the repository  
 2. Open notebooks in Jupyter Notebook / VS Code  
 3. Set environment variables:
+
    export OPENAI_API_KEY="your_openai_api_key"
+   
    export SERPAPI_API_KEY="your_serpapi_api_key"
+   
    export HUGGINGFACEHUB_API_TOKEN="your_huggingface_api_token"
+   
    export PINECONE_API_KEY = "your_pinecone_api_key"
+   
    export PINECONE_API_ENV = "your_pinecone_api_env"  
 
 4. Run the notebook cells sequentially
