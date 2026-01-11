@@ -185,11 +185,29 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
 
 ---
 
+### 🔹 Pinecone Vector Database (NEW)
+
+- Creating a Pinecone index
+- Choosing vector dimensions and similarity metrics
+- Storing embeddings inside Pinecone
+- Performing similarity search queries
+- Integrating Pinecone with LLM-based workflows
+- Understanding how Pinecone fits into **RAG architectures**
+- Scaling vector search for large datasets
+
+📓 Notebook:
+- `Pineconevectordb.ipynb`
+
+This notebook demonstrates **hands-on usage of Pinecone** for real-world vector search scenarios.
+
+---
+
 ## 🛠 Tech Stack Used
 - Python  
 - Jupyter Notebook  
 - OpenAI API  
-- LangChain  
+- LangChain
+- Pinecone Vector Database 
 - Hugging Face Hub  
 - SerpAPI  
 - Wikipedia API  
@@ -203,12 +221,13 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
 1. Clone the repository  
 2. Open notebooks in Jupyter Notebook / VS Code  
 3. Set environment variables:
-   ```bash
    export OPENAI_API_KEY="your_openai_api_key"
    export SERPAPI_API_KEY="your_serpapi_api_key"
    export HUGGINGFACEHUB_API_TOKEN="your_huggingface_api_token"
+   export PINECONE_API_KEY = "your_pinecone_api_key"
+   export PINECONE_API_ENV = "your_pinecone_api_env"  
 
-5. Run the notebook cells sequentially
+4. Run the notebook cells sequentially
 
 ---
 
