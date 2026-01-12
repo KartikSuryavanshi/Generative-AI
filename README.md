@@ -180,12 +180,21 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
   - Recommendation systems
   - Chatbots with memory
 
+### 🔹 Embeddings (Text, Words, Objects)
+- Understanding embeddings as numerical vector representations  
+- Converting:
+  - Text → Vector  
+  - Words → Vector  
+  - Documents → Vector  
+- Full pipeline learned:
+  Data → Embeddings → Vector Database
+
 📄 **Detailed Explanation PDF (Added to Repository):**
 - `Vector_Databases_and_Embeddings_Explained.pdf`
 
 ---
 
-### 🔹 Pinecone Vector Database
+### 🔹 Pinecone (Managed Vector Database)
 
 - Creating a Pinecone index
 - Choosing vector dimensions and similarity metrics
@@ -202,12 +211,35 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 
 ---
 
+### 🔹 ChromaDB (Local Vector Database)
+- Using ChromaDB for local vector storage  
+- Storing document embeddings  
+- Performing similarity search  
+- Integrating ChromaDB with LangChain retrievers  
+
+📓 Notebook:
+- `chromadb.ipynb`
+
+---
+
+### 🔹 Retrieval-Augmented Generation (RAG)
+- End-to-end RAG architecture  
+- Flow:
+  Documents → Embeddings → Vector DB → Retriever → LLM → Answer  
+- LLM answers using retrieved context instead of memorization  
+
+📄 Diagram:
+- RAG architecture using ChromaDB & OpenAI (PDF)
+
+---
+
 ## 🛠 Tech Stack Used
 - Python  
 - Jupyter Notebook  
 - OpenAI API  
 - LangChain
-- Pinecone Vector Database 
+- Pinecone Vector Database
+- ChromaDB Vector Database
 - Hugging Face Hub  
 - SerpAPI  
 - Wikipedia API  
