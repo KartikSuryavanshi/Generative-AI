@@ -163,7 +163,7 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
 
 ---
 
-### 🔹 Vector Databases & Embeddings
+### 🔹 Vector Databases
 
 **Concepts Covered:**
 - What embeddings are and why they are needed  
@@ -180,6 +180,11 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
   - Recommendation systems
   - Chatbots with memory
 
+ 📄 **Detailed Explanation PDF (Added to Repository):**
+- `Vector_Databases_and_Embeddings_Explained.pdf`
+
+---
+
 ### 🔹 Embeddings (Text, Words, Objects)
 - Understanding embeddings as numerical vector representations  
 - Converting:
@@ -188,9 +193,6 @@ This project demonstrates how notebook-level concepts scale into a **real GenAI 
   - Documents → Vector  
 - Full pipeline learned:
   Data → Embeddings → Vector Database
-
-📄 **Detailed Explanation PDF (Added to Repository):**
-- `Vector_Databases_and_Embeddings_Explained.pdf`
 
 ---
 
