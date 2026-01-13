@@ -40,7 +40,8 @@ Alongside notebooks, I have built a **complete end-to-end project** using the co
 This project demonstrates how notebook-level concepts scale into a **real GenAI application**.
 
 ---
-###Open LLMs:
+
+# Open LLMs:
 https://github.com/eugeneyan/open-llms
 
 ---
