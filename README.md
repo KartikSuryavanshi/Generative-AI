@@ -240,19 +240,34 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 
 ---
 
+### 🔹 LLaMA 2 with LangChain
+- Running **open-source LLMs locally**
+- Using LLaMA-2 with LangChain
+- Understanding hardware & memory constraints
+- Difference between closed-source (OpenAI) vs open-source models
+
+📓 Notebooks:
+- `How_to_run_Llama_2.ipynb`
+- `Llama_2_LangChain.ipynb`
+
+---
+
 ## 🛠 Tech Stack Used
 - Python  
 - Jupyter Notebook  
 - OpenAI API  
 - LangChain
+- Vector Embeddings
 - Pinecone Vector Database
 - ChromaDB Vector Database
-- Hugging Face Hub  
+- Hugging Face Models 
 - SerpAPI  
 - Wikipedia API  
 - PyPDF  
 - Streamlit
-- Vector Embeddings/ Databases
+- Vector Embeddings
+- dotenv
+- Pandas
 
 ---
 
