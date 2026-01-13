@@ -17,7 +17,7 @@ This repository is **continuously updated** as I learn new concepts and build pr
 
 ## 🚀 Projects Built Using This Learning
 
-### 🧠 MCQ Generator (LangChain + OpenAI)
+## 🧠 MCQ Generator (LangChain + OpenAI)
 Alongside notebooks, I have built a **complete end-to-end project** using the concepts learned in this repository.
 
 **Project Name:** MCQ Generator  
