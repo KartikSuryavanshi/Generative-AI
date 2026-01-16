@@ -57,6 +57,8 @@ The chatbot provides **context-aware medical responses** based on **uploaded PDF
 👉 https://github.com/KartikSuryavanshi/Medical-Chatbot
 
 <img width="484" height="252" alt="Screenshot 2026-01-16 at 2 09 33 PM" src="https://github.com/user-attachments/assets/fc97087f-87d4-4851-b096-902c5342baa3" />
+
+
 ---
 
 
