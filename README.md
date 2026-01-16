@@ -303,7 +303,7 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
    
    export PINECONE_API_KEY = "your_pinecone_api_key"
    
-   export PINECONE_API_ENV = "your_pinecone_api_env"  
+   export PINECONE_INDEX_HOST = "your_pinecone_index_host"  
 
 4. Run the notebook cells sequentially
 
