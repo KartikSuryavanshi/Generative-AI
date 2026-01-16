@@ -17,7 +17,7 @@ This repository is **continuously updated** as I learn new concepts and build pr
 
 ## 🚀 Projects Built Using This Learning
 
-## 🧠 MCQ Generator (LangChain + OpenAI)
+## 🧠 Project 1: MCQ Generator (LangChain + OpenAI)
 Alongside notebooks, I have built a **complete end-to-end project** using the concepts learned in this repository.
 
 **Project Name:** MCQ Generator  
@@ -37,9 +37,28 @@ Alongside notebooks, I have built a **complete end-to-end project** using the co
 <img width="701" height="770" alt="Screenshot 2026-01-07 at 11 15 21 AM" src="https://github.com/user-attachments/assets/7877c756-ffa7-47d6-943c-c91fa53f5db4" />
 
 
-This project demonstrates how notebook-level concepts scale into a **real GenAI application**.
 
+## 🏥 Project 2: End-to-End Medical Chatbot using LLaMA 2
+
+An **intelligent medical chatbot** powered by **Meta’s LLaMA 2**, **LangChain**, and **Pinecone Vector Database**.
+
+The chatbot provides **context-aware medical responses** based on **uploaded PDF documents**, using a **Retrieval-Augmented Generation (RAG)** architecture.
+
+### 🔑 Key Highlights
+- Uses **open-source LLaMA 2** (no OpenAI dependency)
+- PDF-based **medical knowledge ingestion**
+- Vector search using **Pinecone Serverless**
+- Semantic retrieval with embeddings
+- RAG-based answer generation
+- Modern **Flask + Bootstrap UI**
+- Fully production-ready architecture
+
+📌 Repository  
+👉 https://github.com/KartikSuryavanshi/Medical-Chatbot
+
+<img width="484" height="252" alt="Screenshot 2026-01-16 at 2 09 33 PM" src="https://github.com/user-attachments/assets/fc97087f-87d4-4851-b096-902c5342baa3" />
 ---
+
 
 # Open LLMs:
 https://github.com/eugeneyan/open-llms
