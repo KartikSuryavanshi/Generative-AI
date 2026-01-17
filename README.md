@@ -353,17 +353,19 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 2. Open notebooks in Jupyter Notebook / VS Code  
 3. Set environment variables:
 
-   export OPENAI_API_KEY="your_openai_api_key"
+   export OPENAI_API_KEY = "your_openai_api_key"
    
-   export SERPAPI_API_KEY="your_serpapi_api_key"
+   export SERPAPI_API_KEY = "your_serpapi_api_key"
    
-   export HUGGINGFACEHUB_API_TOKEN="your_huggingface_api_token"
+   export HUGGINGFACEHUB_API_TOKEN = "your_huggingface_api_token"
    
    export PINECONE_API_KEY = "your_pinecone_api_key"
    
-   export PINECONE_INDEX_HOST = "your_pinecone_index_host"  
+   export PINECONE_INDEX_HOST = "your_pinecone_index_host"
 
-4. Run the notebook cells sequentially
+   export GOOGLE_API_KEY = "your_google_api_key"
+
+5. Run the notebook cells sequentially
 
 ---
 
