@@ -59,6 +59,32 @@ The chatbot provides **context-aware medical responses** based on **uploaded PDF
 <img width="484" height="252" alt="Screenshot 2026-01-16 at 2 09 33 PM" src="https://github.com/user-attachments/assets/fc97087f-87d4-4851-b096-902c5342baa3" />
 
 
+
+## 🧾 Project 3: Invoice Extractor using Gemini Pro Vision
+
+An **intelligent invoice extraction system** built using **Google’s Gemini Pro Vision (Gemini 1.5 Flash)** and **Streamlit**, capable of extracting structured information from invoice images using **multimodal Generative AI**.
+
+This project demonstrates how **vision + language models** can be used to automate document understanding tasks such as invoice processing.
+
+### 🔑 Key Highlights
+- Uses **Gemini Pro Vision (Multimodal LLM)**
+- Upload invoice images (PNG, JPG, etc.)
+- Extracts invoice details using **prompt-based vision understanding**
+- Supports **custom extraction prompts**
+- Fast inference using **Gemini 1.5 Flash**
+- Clean and interactive **Streamlit UI**
+- End-to-end AI-powered document processing workflow
+
+📌 Repository  
+👉 https://github.com/KartikSuryavanshi/Invoice-Extractor-using-Gemini-Pro-Vision
+
+<img width="1141" height="752" alt="Screenshot 2026-01-17 at 11 21 53 AM" src="https://github.com/user-attachments/assets/47fc52e3-5ace-45a8-a67a-6fae9c11691b" />
+<img width="1198" height="649" alt="Screenshot 2026-01-17 at 11 22 06 AM" src="https://github.com/user-attachments/assets/3e84ea93-612b-4b80-9149-3387c2d22cc4" />
+
+
+---
+
+
 ---
 
 
@@ -274,21 +300,55 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 ---
 
 ## 🛠 Tech Stack Used
+
+### 🔹 Programming & Frameworks
 - Python  
 - Jupyter Notebook  
-- OpenAI API  
-- LangChain
-- Vector Embeddings
-- Pinecone Vector Database
-- ChromaDB Vector Database
-- Hugging Face Models 
-- SerpAPI  
-- Wikipedia API  
-- PyPDF  
+- Streamlit  
+- Flask  
+
+### 🔹 Large Language Models (LLMs)
+- OpenAI (GPT-based models)
+- Meta LLaMA 2 (Open-source LLM)
+- Google Gemini Pro Vision (Gemini 1.5 Flash)
+
+### 🔹 GenAI Frameworks
+- LangChain  
+- LangChain Community  
+
+### 🔹 Vector Databases
+- Pinecone (Serverless)
+- ChromaDB  
+
+### 🔹 Embeddings & Retrieval
+- OpenAI Embeddings  
+- Hugging Face Embeddings  
+- Sentence Transformers (`BAAI/bge-large-en-v1.5`)  
+
+### 🔹 Multimodal AI
+- Image + Text processing using Gemini Pro Vision
+- Vision-based prompt engineering
+
+### 🔹 Tools & APIs
+- SerpAPI (Real-time search)
+- Wikipedia API
+- Hugging Face Hub
+- Google Generative AI (Gemini API)
+
+### 🔹 Document Processing
+- PyPDF / PyPDFLoader  
+- PDF chunking & ingestion  
+- TXT & image-based document handling  
+
+### 🔹 UI & Frontend
 - Streamlit
-- Vector Embeddings
-- dotenv
+- HTML / CSS (Bootstrap)
+
+### 🔹 Utilities
+- dotenv (Environment variable management)
 - Pandas
+- Logging & callbacks for token/cost tracking
+
 
 ---
 
