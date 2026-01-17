@@ -80,11 +80,6 @@ This project demonstrates how **vision + language models** can be used to automa
 
 <img width="1141" height="752" alt="Screenshot 2026-01-17 at 11 21 53 AM" src="https://github.com/user-attachments/assets/47fc52e3-5ace-45a8-a67a-6fae9c11691b" />
 
-<img width="1198" height="649" alt="Screenshot 2026-01-17 at 11 22 06 AM" src="https://github.com/user-attachments/assets/3e84ea93-612b-4b80-9149-3387c2d22cc4" />
-
-
----
-
 
 ---
 
