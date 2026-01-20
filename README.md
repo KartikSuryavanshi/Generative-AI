@@ -83,6 +83,24 @@ This project demonstrates how **vision + language models** can be used to automa
 
 ---
 
+# Generative AI:
+
+<img width="1058" height="560" alt="Screenshot 2026-01-20 at 9 42 40 AM" src="https://github.com/user-attachments/assets/9ae3a0bd-8422-4318-9685-ce9e3278cbe8" />
+
+<img width="1043" height="511" alt="Screenshot 2026-01-20 at 10 03 24 AM" src="https://github.com/user-attachments/assets/b41a12e0-7641-448b-a0af-027c15ff0dfa" />
+<img width="1001" height="475" alt="Screenshot 2026-01-20 at 10 04 38 AM" src="https://github.com/user-attachments/assets/4000adef-e82d-4788-b0da-d55f00e78785" />
+
+<img width="1047" height="416" alt="Screenshot 2026-01-20 at 10 05 20 AM" src="https://github.com/user-attachments/assets/f76aa163-d9ee-4f71-bf83-fdc4c5cc7ead" />
+
+
+<img width="1126" height="509" alt="Screenshot 2026-01-20 at 10 09 01 AM" src="https://github.com/user-attachments/assets/9477df46-5422-41a5-8f6e-068a7a8fed5d" />
+
+<img width="1046" height="611" alt="Screenshot 2026-01-20 at 10 09 40 AM" src="https://github.com/user-attachments/assets/1c04eff9-2eb2-41b6-b454-12b9c7cb5e20" />
+
+
+
+
+---
 
 # Open LLMs:
 https://github.com/eugeneyan/open-llms
