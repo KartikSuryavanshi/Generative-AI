@@ -313,6 +313,20 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 
 ---
 
+### 🔹 LlamaIndex (Data Framework for LLMs)
+- Understanding **LlamaIndex as a data framework for LLM applications**
+- Connecting **custom data sources** to LLMs
+- Indexing documents for semantic search
+- Querying structured & unstructured data using LLMs
+- Comparing **LlamaIndex vs LangChain**
+- Using LlamaIndex for **RAG-style workflows**
+- Building query engines on top of indexed data
+
+📓 Notebook:
+- `test.ipynb`
+
+---
+
 ## 🛠 Tech Stack Used
 
 ### 🔹 Programming & Frameworks
@@ -327,8 +341,8 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - Google Gemini Pro Vision (Gemini 1.5 Flash)
 
 ### 🔹 GenAI Frameworks
-- LangChain  
-- LangChain Community  
+- LangChain
+- LlamaIndex
 
 ### 🔹 Vector Databases
 - Pinecone (Serverless)
