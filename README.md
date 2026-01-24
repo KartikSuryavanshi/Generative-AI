@@ -31,8 +31,6 @@ Alongside notebooks, I have built a **complete end-to-end project** using the co
 - Interactive **Streamlit UI**
 - Modular production-style codebase
 
-📌 Repository:
-👉 https://github.com/KartikSuryavanshi/MCQ-Generator
 
 <img width="701" height="770" alt="Screenshot 2026-01-07 at 11 15 21 AM" src="https://github.com/user-attachments/assets/7877c756-ffa7-47d6-943c-c91fa53f5db4" />
 
@@ -53,8 +51,6 @@ The chatbot provides **context-aware medical responses** based on **uploaded PDF
 - Modern **Flask + Bootstrap UI**
 - Fully production-ready architecture
 
-📌 Repository  
-👉 https://github.com/KartikSuryavanshi/Medical-Chatbot
 
 <img width="484" height="252" alt="Screenshot 2026-01-16 at 2 09 33 PM" src="https://github.com/user-attachments/assets/fc97087f-87d4-4851-b096-902c5342baa3" />
 
@@ -75,8 +71,6 @@ This project demonstrates how **vision + language models** can be used to automa
 - Clean and interactive **Streamlit UI**
 - End-to-end AI-powered document processing workflow
 
-📌 Repository  
-👉 https://github.com/KartikSuryavanshi/Invoice-Extractor-using-Gemini-Pro-Vision
 
 <img width="1141" height="752" alt="Screenshot 2026-01-17 at 11 21 53 AM" src="https://github.com/user-attachments/assets/47fc52e3-5ace-45a8-a67a-6fae9c11691b" />
 
