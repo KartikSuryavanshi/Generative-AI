@@ -321,6 +321,23 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 
 ---
 
+### 🔹 Amazon Bedrock (Managed GenAI Platform)
+- Understanding **Amazon Bedrock** as a fully managed GenAI service on AWS
+- Accessing **multiple foundation models (FMs)** via a **single API**
+- Exploring models from:
+  - Anthropic (Claude)
+  - AI21 Labs
+  - Cohere
+  - Meta
+  - Stability AI
+  - Amazon (Titan models)
+- Building **secure, private, and responsible AI applications**
+- Using **RAG (Retrieval-Augmented Generation)** with enterprise data
+- Private model customization using **fine-tuning**
+- Building **AI agents** that interact with enterprise systems & data
+
+---
+
 ## 🛠 Tech Stack Used
 
 ### 🔹 Programming & Frameworks
@@ -356,6 +373,10 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - Wikipedia API
 - Hugging Face Hub
 - Google Generative AI (Gemini API)
+
+### 🔹 Cloud & Managed GenAI Platforms
+- Amazon Bedrock
+- AWS (GenAI services & infrastructure)
 
 ### 🔹 Document Processing
 - PyPDF / PyPDFLoader  
