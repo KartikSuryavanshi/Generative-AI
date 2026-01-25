@@ -391,6 +391,7 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - dotenv (Environment variable management)
 - Pandas
 - Logging & callbacks for token/cost tracking
+- Finetuning LLM Model
 
 
 ---
