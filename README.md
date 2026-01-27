@@ -348,7 +348,7 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - Understanding **QLoRA** for memory-efficient fine-tuning
 - Role of **quantization** in reducing model size & compute cost
 - Learning about **1-bit & ultra-low-bit LLMs (1.58-bit models)**
-- Exploring how large models can run on **limited hardware**
+- Exploring how large models can run on limited hardware
 - Building **LLMOps pipelines** for training & deployment
 - Step-by-step fine-tuning of **LLaMA 2 with custom datasets**
 - Fine-tuning **Gemma models** using **LoRA in Keras**
