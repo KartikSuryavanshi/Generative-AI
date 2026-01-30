@@ -307,6 +307,19 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 
 ---
 
+### 🔹 Hugging Face + LangChain Integration
+- Learned how to use **open-source LLMs from Hugging Face** with LangChain
+- Running **local Hugging Face models** using `HuggingFacePipeline`
+- Understanding **local inference vs hosted inference**
+- Learned how to use **Hugging Face Hosted Inference API** via `HuggingFaceEndpoint`
+- Running large models **without local GPU dependency**
+- Managing **Hugging Face API tokens** securely via environment variables
+
+📓 Notebook:
+- `Huggingface-Langchain.ipynb`
+
+---
+
 ### 🔹 LlamaIndex (Data Framework for LLMs)
 - Understanding **LlamaIndex as a data framework for LLM applications**
 - Connecting **custom data sources** to LLMs
