@@ -338,6 +338,28 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 
 ---
 
+### 🔹 LLM Fine-Tuning (LoRA, QLoRA & Quantization)
+- Understanding **why fine-tuning is needed** vs prompt engineering
+- Learning the **end-to-end roadmap for LLM fine-tuning**
+- Difference between:
+  - Full fine-tuning
+  - Parameter-efficient fine-tuning (PEFT)
+- Deep intuition behind **LoRA (Low-Rank Adaptation)**
+- Understanding **QLoRA** for memory-efficient fine-tuning
+- Role of **quantization** in reducing model size & compute cost
+- Learning about **1-bit & ultra-low-bit LLMs (1.58-bit models)**
+- Exploring how large models can run on limited hardware
+- Building **LLMOps pipelines** for training & deployment
+- Step-by-step fine-tuning of **LLaMA 2 with custom datasets**
+- Fine-tuning **Gemma models** using **LoRA in Keras**
+- Understanding trade-offs between:
+  - Accuracy
+  - Memory
+  - Latency
+  - Cost
+
+---
+
 ## 🛠 Tech Stack Used
 
 ### 🔹 Programming & Frameworks
@@ -391,8 +413,14 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - dotenv (Environment variable management)
 - Pandas
 - Logging & callbacks for token/cost tracking
-- Finetuning LLM Model
 
+### 🔹 Fine-Tuning & LLMOps
+- LoRA (Low-Rank Adaptation)
+- QLoRA
+- Quantization Techniques
+- PEFT (Parameter-Efficient Fine-Tuning)
+- LLMOps Pipelines
+- Keras (for Gemma fine-tuning)
 
 ---
 
