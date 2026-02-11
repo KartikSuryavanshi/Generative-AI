@@ -371,6 +371,31 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
   - Latency
   - Cost
 
+
+---
+
+---
+
+### 🔹 CrewAI – Multi-Agent Systems
+
+- Learned how to build **multi-agent AI systems**
+- Understanding difference between:
+  - Single LLM workflow
+  - Multi-agent orchestration
+- Role-based AI agents with:
+  - Defined goals
+  - Backstories
+  - Specialized responsibilities
+- Creating:
+  - Research Agent
+  - Writer Agent
+  - Editor Agent
+- Task delegation between agents
+- Agent collaboration & reasoning loops
+- Tool usage inside agents
+- Crew orchestration (Agents + Tasks + Tools)
+- Autonomous workflow execution
+
 ---
 
 ## 🛠 Tech Stack Used
@@ -434,6 +459,10 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - PEFT (Parameter-Efficient Fine-Tuning)
 - LLMOps Pipelines
 - Keras (for Gemma fine-tuning)
+
+### 🔹 Agentic AI Frameworks
+- CrewAI (Multi-Agent Systems)
+- LangChain Agents
 
 ---
 
