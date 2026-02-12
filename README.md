@@ -76,6 +76,65 @@ This project demonstrates how **vision + language models** can be used to automa
 
 
 ---
+## Mini Project using Langgraph
+
+## 🤖 Project 1: Basic Stateful Chatbot (LangGraph + Groq)
+
+Built a conversational chatbot using:
+
+- `StateGraph`
+- Custom `State` object
+- `ChatGroq` (Gemma2-9b-It)
+- Stateful message history
+- Streaming outputs
+
+### What I Implemented:
+
+- Defined custom state with message memory
+- Created chatbot node
+- Connected START → chatbot → END
+- Compiled graph
+- Interactive terminal loop
+
+This demonstrates:
+- Stateful memory
+- Graph orchestration
+- LLM streaming execution
+
+📓 Notebook:
+- `1-Getting Started Langraph.ipynb`
+
+---
+
+## 🛠 Project 2: LangGraph Chatbot with Tools (Agentic Workflow)
+
+Built a tool-enabled chatbot with:
+
+- Wikipedia Tool
+- Arxiv Tool
+- Conditional tool execution
+- ToolNode integration
+- `tools_condition` routing
+- Cyclical graph loop (chatbot ↔ tools)
+
+### Architecture:
+
+User → Chatbot Node  
+If tool call detected → Tool Node  
+Tool response → Back to Chatbot  
+Then final answer
+
+This demonstrates:
+
+- Tool binding using `llm.bind_tools()`
+- Conditional graph edges
+- Autonomous tool selection
+- Agent-style reasoning loop
+- Streaming execution
+- Real-time knowledge retrieval
+
+📓 Notebook:
+- `Langgraph Chatbot With Tools.ipynb`
 
 # Generative AI:
 
@@ -398,6 +457,18 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 
 ---
 
+### 🔹 LangGraph – Stateful & Tool-Enabled AI Systems
+
+Learned how to build **stateful, multi-actor LLM applications** using LangGraph.
+
+LangGraph extends LangChain by enabling:
+- Cyclical graphs
+- Stateful workflows
+- Conditional routing
+- Agent-style runtime control
+
+---
+
 ## 🛠 Tech Stack Used
 
 ### 🔹 Programming & Frameworks
@@ -406,64 +477,119 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - Streamlit  
 - Flask  
 
+---
+
 ### 🔹 Large Language Models (LLMs)
 - OpenAI (GPT-based models)
 - Meta LLaMA 2 (Open-source LLM)
+- Meta LLaMA 3
 - Google Gemini Pro Vision (Gemini 1.5 Flash)
+- Gemma Models
+- Phi-3 (HuggingFace)
+- Groq-hosted Models (Gemma2-9b-It)
+
+---
 
 ### 🔹 GenAI Frameworks
 - LangChain
+- LangChain Community
 - LlamaIndex
+- LangGraph (Stateful Graph-based LLM Apps)
+
+---
+
+### 🔹 Agentic AI & Multi-Agent Systems
+- CrewAI (Multi-Agent Systems)
+- LangChain Agents
+- Tool Calling & Conditional Routing
+- Stateful Agent Workflows
+- Cyclic Graph Execution (LangGraph)
+
+---
 
 ### 🔹 Vector Databases
 - Pinecone (Serverless)
 - ChromaDB  
 
+---
+
 ### 🔹 Embeddings & Retrieval
 - OpenAI Embeddings  
 - Hugging Face Embeddings  
 - Sentence Transformers (`BAAI/bge-large-en-v1.5`)  
+- Semantic Similarity Search
+- Retrieval-Augmented Generation (RAG)
+
+---
 
 ### 🔹 Multimodal AI
 - Image + Text processing using Gemini Pro Vision
 - Vision-based prompt engineering
+- Invoice extraction (Vision LLM)
 
-### 🔹 Tools & APIs
+---
+
+### 🔹 Hugging Face & Open Models
+- HuggingFacePipeline
+- HuggingFaceEndpoint
+- Transformers
+- Quantized GGML Models
+- CTransformers
+
+---
+
+### 🔹 Tools & External APIs
 - SerpAPI (Real-time search)
 - Wikipedia API
+- Arxiv API
 - Hugging Face Hub
 - Google Generative AI (Gemini API)
+- Groq API
+
+---
 
 ### 🔹 Cloud & Managed GenAI Platforms
 - Amazon Bedrock
-- AWS (GenAI services & infrastructure)
+- AWS EC2 Deployment
+- AWS Ubuntu Server Setup
+- Pinecone Serverless
+- Environment-based secure key management
+
+---
 
 ### 🔹 Document Processing
 - PyPDF / PyPDFLoader  
 - PDF chunking & ingestion  
 - TXT & image-based document handling  
+- Vector indexing pipelines
 
-### 🔹 UI & Frontend
-- Streamlit
-- HTML / CSS (Bootstrap)
-
-### 🔹 Utilities
-- dotenv (Environment variable management)
-- Pandas
-- Logging & callbacks for token/cost tracking
+---
 
 ### 🔹 Fine-Tuning & LLMOps
 - LoRA (Low-Rank Adaptation)
 - QLoRA
 - Quantization Techniques
 - PEFT (Parameter-Efficient Fine-Tuning)
+- 1-bit & Low-bit LLM Concepts
 - LLMOps Pipelines
-- Keras (for Gemma fine-tuning)
+- Keras (Gemma fine-tuning)
+- Memory-efficient training workflows
 
-### 🔹 Agentic AI Frameworks
-- CrewAI (Multi-Agent Systems)
-- LangChain Agents
+---
 
+### 🔹 UI & Frontend
+- Streamlit
+- Flask
+- HTML / CSS (Bootstrap)
+
+---
+
+### 🔹 Utilities & Observability
+- dotenv (Environment variable management)
+- Pandas
+- Logging
+- LangSmith (Tracing & Monitoring)
+- Token & Cost Tracking Callbacks
 ---
 
 ## 🚀 How to Run
@@ -471,17 +597,26 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 2. Open notebooks in Jupyter Notebook / VS Code  
 3. Set environment variables:
 
-   export OPENAI_API_KEY = "your_openai_api_key"
-   
-   export SERPAPI_API_KEY = "your_serpapi_api_key"
-   
-   export HUGGINGFACEHUB_API_TOKEN = "your_huggingface_api_token"
-   
-   export PINECONE_API_KEY = "your_pinecone_api_key"
-   
-   export PINECONE_INDEX_HOST = "your_pinecone_index_host"
+# OpenAI
+export OPENAI_API_KEY="your_openai_api_key"
 
-   export GOOGLE_API_KEY = "your_google_api_key"
+# Google Gemini
+export GOOGLE_API_KEY="your_google_api_key"
+
+# HuggingFace
+export HUGGINGFACEHUB_API_TOKEN="your_huggingface_token"
+
+# Pinecone
+export PINECONE_API_KEY="your_pinecone_api_key"
+export PINECONE_INDEX_HOST="your_pinecone_index_host"
+
+# Groq (for fast open-source model inference)
+export GROQ_API_KEY="your_groq_api_key"
+
+# LangSmith (for tracing & observability)
+export LANGCHAIN_API_KEY="your_langsmith_api_key"
+export LANGCHAIN_TRACING_V2="true"
+export LANGCHAIN_PROJECT="GenAI-Learning"
 
 5. Run the notebook cells sequentially
 
