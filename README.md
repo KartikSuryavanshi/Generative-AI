@@ -597,25 +597,25 @@ LangGraph extends LangChain by enabling:
 2. Open notebooks in Jupyter Notebook / VS Code  
 3. Set environment variables:
 
-# OpenAI
+OpenAI:
 export OPENAI_API_KEY="your_openai_api_key"
 
-# Google Gemini
+Google Gemini:
 export GOOGLE_API_KEY="your_google_api_key"
 
-# HuggingFace
+HuggingFace:
 export HUGGINGFACEHUB_API_TOKEN="your_huggingface_token"
 
-# Pinecone
-export PINECONE_API_KEY="your_pinecone_api_key"
+Pinecone:
+export PINECONE_API_KEY="your_pinecone_api_key",
 export PINECONE_INDEX_HOST="your_pinecone_index_host"
 
-# Groq (for fast open-source model inference)
+Groq (for fast open-source model inference):
 export GROQ_API_KEY="your_groq_api_key"
 
-# LangSmith (for tracing & observability)
-export LANGCHAIN_API_KEY="your_langsmith_api_key"
-export LANGCHAIN_TRACING_V2="true"
+LangSmith (for tracing & observability):
+export LANGCHAIN_API_KEY="your_langsmith_api_key",
+export LANGCHAIN_TRACING_V2="true",
 export LANGCHAIN_PROJECT="GenAI-Learning"
 
 5. Run the notebook cells sequentially
