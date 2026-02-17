@@ -619,13 +619,4 @@ export LANGCHAIN_TRACING_V2="true",
 export LANGCHAIN_PROJECT="GenAI-Learning"
 
 5. Run the notebook cells sequentially
-
 ---
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
-## ⭐ Note
-This repository reflects my **current progress** and will be **updated daily** as I learn and implement more Generative AI concepts.
