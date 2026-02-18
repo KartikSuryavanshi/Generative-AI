@@ -9,7 +9,7 @@
 This repository documents my **hands-on learning journey in Generative AI**, implemented using **Python and Jupyter Notebooks**.
 
 The focus is on **practical implementation rather than theory**.  
-All concepts are learned by writing **real production-style code**, experimenting with **LLMs, tools, agents, chains, and frameworks** commonly used in real-world Generative AI systems.
+All concepts are learned by writing **real production-style code**, experimenting with **LLMs, tools, agents, chains, and frameworks** commonly used in real-world Generative AI systemss.
 
 This repository is **continuously updated** as I learn new concepts and build projects.
 
