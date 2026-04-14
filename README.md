@@ -213,8 +213,6 @@ Notebook:
 Notebook:
 - `testopenaiapi_and_langchain.ipynb`
 
----
-
 ### Document Loaders
 - Loading PDFs using `PyPDFLoader`  
 - Splitting documents into pages  
@@ -232,7 +230,6 @@ Notebook:
 
 Notebook:
 - `langchain.ipynb`
-
 
 ### Hugging Face Models
 - Using open-source models via Hugging Face Hub  
@@ -339,8 +336,6 @@ Notebook:
 Notebook:
 - `test.ipynb`
 
----
-
 ### Amazon Bedrock (Managed GenAI Platform)
 - Understanding **Amazon Bedrock** as a fully managed GenAI service on AWS
 - Accessing **multiple foundation models (FMs)** via a **single API**
@@ -408,15 +403,13 @@ LangGraph extends LangChain by enabling:
 
 ## Tech Stack Used
 
-### 🔹 Programming & Frameworks
+### Programming & Frameworks
 - Python  
 - Jupyter Notebook  
 - Streamlit  
 - Flask  
 
----
-
-### 🔹 Large Language Models (LLMs)
+### Large Language Models (LLMs)
 - OpenAI (GPT-based models)
 - Meta LLaMA 2 (Open-source LLM)
 - Meta LLaMA 3
@@ -425,57 +418,43 @@ LangGraph extends LangChain by enabling:
 - Phi-3 (HuggingFace)
 - Groq-hosted Models (Gemma2-9b-It)
 
----
-
-### 🔹 GenAI Frameworks
+### GenAI Frameworks
 - LangChain
 - LangChain Community
 - LlamaIndex
 - LangGraph (Stateful Graph-based LLM Apps)
 
----
-
-### 🔹 Agentic AI & Multi-Agent Systems
+### Agentic AI & Multi-Agent Systems
 - CrewAI (Multi-Agent Systems)
 - LangChain Agents
 - Tool Calling & Conditional Routing
 - Stateful Agent Workflows
 - Cyclic Graph Execution (LangGraph)
 
----
-
-### 🔹 Vector Databases
+### Vector Databases
 - Pinecone (Serverless)
 - ChromaDB  
 
----
-
-### 🔹 Embeddings & Retrieval
+### Embeddings & Retrieval
 - OpenAI Embeddings  
 - Hugging Face Embeddings  
 - Sentence Transformers (`BAAI/bge-large-en-v1.5`)  
 - Semantic Similarity Search
 - Retrieval-Augmented Generation (RAG)
 
----
-
-### 🔹 Multimodal AI
+### Multimodal AI
 - Image + Text processing using Gemini Pro Vision
 - Vision-based prompt engineering
 - Invoice extraction (Vision LLM)
 
----
-
-### 🔹 Hugging Face & Open Models
+### Hugging Face & Open Models
 - HuggingFacePipeline
 - HuggingFaceEndpoint
 - Transformers
 - Quantized GGML Models
 - CTransformers
 
----
-
-### 🔹 Tools & External APIs
+### Tools & External APIs
 - SerpAPI (Real-time search)
 - Wikipedia API
 - Arxiv API
@@ -483,26 +462,20 @@ LangGraph extends LangChain by enabling:
 - Google Generative AI (Gemini API)
 - Groq API
 
----
-
-### 🔹 Cloud & Managed GenAI Platforms
+### Cloud & Managed GenAI Platforms
 - Amazon Bedrock
 - AWS EC2 Deployment
 - AWS Ubuntu Server Setup
 - Pinecone Serverless
 - Environment-based secure key management
 
----
-
-### 🔹 Document Processing
+### Document Processing
 - PyPDF / PyPDFLoader  
 - PDF chunking & ingestion  
 - TXT & image-based document handling  
 - Vector indexing pipelines
 
----
-
-### 🔹 Fine-Tuning & LLMOps
+### Fine-Tuning & LLMOps
 - LoRA (Low-Rank Adaptation)
 - QLoRA
 - Quantization Techniques
@@ -512,24 +485,19 @@ LangGraph extends LangChain by enabling:
 - Keras (Gemma fine-tuning)
 - Memory-efficient training workflows
 
----
-
-### 🔹 UI & Frontend
+### UI & Frontend
 - Streamlit
 - Flask
 - HTML / CSS (Bootstrap)
 
----
-
-### 🔹 Utilities & Observability
+### Utilities & Observability
 - dotenv (Environment variable management)
 - Pandas
 - Logging
 - LangSmith (Tracing & Monitoring)
 - Token & Cost Tracking Callbacks
----
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository  
 2. Open notebooks in Jupyter Notebook / VS Code  
 3. Set environment variables:
@@ -555,5 +523,4 @@ export LANGCHAIN_API_KEY="your_langsmith_api_key",
 export LANGCHAIN_TRACING_V2="true",
 export LANGCHAIN_PROJECT="GenAI-Learning"
 
-5. Run the notebook cells sequentially
----
+4. Run the notebook cells sequentially
