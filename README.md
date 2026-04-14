@@ -1,23 +1,14 @@
-# 🤖 Generative AI – Hands-On Learning
+# Generative AI – Hands-On Learning
 
-## 👤 Author
-**Kartik Suryavanshi**
-
----
-
-## 📌 About This Repository
+## About This Repository
 This repository documents my **hands-on learning journey in Generative AI**, implemented using **Python and Jupyter Notebooks**.
 
 The focus is on **practical implementation rather than theory**.  
 All concepts are learned by writing **real production-style code**, experimenting with **LLMs, tools, agents, chains, and frameworks** commonly used in real-world Generative AI systemss.
 
-This repository is **continuously updated** as I learn new concepts and build projects.
+## Projects Built Using This Learning
 
----
-
-## 🚀 Projects Built Using This Learning
-
-## 🧠 Project 1: MCQ Generator (LangChain + OpenAI)
+## Project 1: MCQ Generator (LangChain + OpenAI)
 Alongside notebooks, I have built a **complete end-to-end project** using the concepts learned in this repository.
 
 **Project Name:** MCQ Generator  
@@ -36,13 +27,13 @@ Alongside notebooks, I have built a **complete end-to-end project** using the co
 
 
 
-## 🏥 Project 2: End-to-End Medical Chatbot using LLaMA 2
+## Project 2: End-to-End Medical Chatbot using LLaMA 2
 
 An **intelligent medical chatbot** powered by **Meta’s LLaMA 2**, **LangChain**, and **Pinecone Vector Database**.
 
 The chatbot provides **context-aware medical responses** based on **uploaded PDF documents**, using a **Retrieval-Augmented Generation (RAG)** architecture.
 
-### 🔑 Key Highlights
+**Key Highlights:**
 - Uses **open-source LLaMA 2** (no OpenAI dependency)
 - PDF-based **medical knowledge ingestion**
 - Vector search using **Pinecone Serverless**
@@ -55,14 +46,13 @@ The chatbot provides **context-aware medical responses** based on **uploaded PDF
 <img width="484" height="252" alt="Screenshot 2026-01-16 at 2 09 33 PM" src="https://github.com/user-attachments/assets/fc97087f-87d4-4851-b096-902c5342baa3" />
 
 
-
-## 🧾 Project 3: Invoice Extractor using Gemini Pro Vision
+## Project 3: Invoice Extractor using Gemini Pro Vision
 
 An **intelligent invoice extraction system** built using **Google’s Gemini Pro Vision (Gemini 1.5 Flash)** and **Streamlit**, capable of extracting structured information from invoice images using **multimodal Generative AI**.
 
 This project demonstrates how **vision + language models** can be used to automate document understanding tasks such as invoice processing.
 
-### 🔑 Key Highlights
+**Key Highlights:**
 - Uses **Gemini Pro Vision (Multimodal LLM)**
 - Upload invoice images (PNG, JPG, etc.)
 - Extracts invoice details using **prompt-based vision understanding**
@@ -74,11 +64,9 @@ This project demonstrates how **vision + language models** can be used to automa
 
 <img width="1141" height="752" alt="Screenshot 2026-01-17 at 11 21 53 AM" src="https://github.com/user-attachments/assets/47fc52e3-5ace-45a8-a67a-6fae9c11691b" />
 
-
----
 ## Mini Project using Langgraph
 
-## 🤖 Project 1: Basic Stateful Chatbot (LangGraph + Groq)
+## Project 1: Basic Stateful Chatbot (LangGraph + Groq)
 
 Built a conversational chatbot using:
 
@@ -104,9 +92,7 @@ This demonstrates:
 📓 Notebook:
 - `1-Getting Started Langraph.ipynb`
 
----
-
-## 🛠 Project 2: LangGraph Chatbot with Tools (Agentic Workflow)
+## Project 2: LangGraph Chatbot with Tools (Agentic Workflow)
 
 Built a tool-enabled chatbot with:
 
@@ -133,7 +119,7 @@ This demonstrates:
 - Streaming execution
 - Real-time knowledge retrieval
 
-📓 Notebook:
+Notebook:
 - `Langgraph Chatbot With Tools.ipynb`
 
 # Generative AI:
@@ -150,17 +136,10 @@ This demonstrates:
 
 <img width="1046" height="611" alt="Screenshot 2026-01-20 at 10 09 40 AM" src="https://github.com/user-attachments/assets/1c04eff9-2eb2-41b6-b454-12b9c7cb5e20" />
 
-
-
-
----
-
 # Open LLMs:
 https://github.com/eugeneyan/open-llms
 
----
-
-## ✅ What’s Done So Far
+## Topic's covered
 
 ### 🔹 OpenAI API Fundamentals
 - OpenAI API setup and authentication  
@@ -173,9 +152,7 @@ https://github.com/eugeneyan/open-llms
 📓 Notebook:
 - `testopenaiapi.ipynb`
 
----
-
-### 🔹 Structured Output & Function Calling
+### Structured Output & Function Calling
 - Extracting structured JSON data from unstructured text  
 - Parsing model responses into Python dictionaries  
 - Defining function schemas  
