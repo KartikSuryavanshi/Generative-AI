@@ -89,7 +89,7 @@ This demonstrates:
 - Graph orchestration
 - LLM streaming execution
 
-📓 Notebook:
+Notebook:
 - `1-Getting Started Langraph.ipynb`
 
 ## Project 2: LangGraph Chatbot with Tools (Agentic Workflow)
@@ -141,7 +141,7 @@ https://github.com/eugeneyan/open-llms
 
 ## Topic's covered
 
-### 🔹 OpenAI API Fundamentals
+### OpenAI API Fundamentals
 - OpenAI API setup and authentication  
 - Listing available OpenAI models  
 - Chat-based text generation  
@@ -149,7 +149,7 @@ https://github.com/eugeneyan/open-llms
 - Prompt experimentation  
 - Playground concepts (temperature, max tokens, top-p, penalties)
 
-📓 Notebook:
+Notebook:
 - `testopenaiapi.ipynb`
 
 ### Structured Output & Function Calling
@@ -160,46 +160,38 @@ https://github.com/eugeneyan/open-llms
 - Batch processing multiple inputs  
 - Tool-style workflows where LLM selects function arguments  
 
-📓 Notebook:
+Notebook:
 - `testopenaiapi_and_langchain.ipynb`
 
----
-
-### 🔹 Advanced Function Calling & Tool Execution
+### Advanced Function Calling & Tool Execution
 - Designing function descriptions for external tools  
 - Letting the LLM decide which function to call  
 - Executing Python functions based on LLM output  
 - Sending tool execution results back to the LLM  
 - Generating final natural language responses  
 
-📓 Notebook:
+Notebook:
 - `testopenaiapi_and_langchain.ipynb`
 
----
-
-### 🔹 LangChain Core Concepts
+### LangChain Core Concepts
 - Using LangChain’s OpenAI LLM wrapper  
 - Zero-shot prompting using LangChain  
 - Understanding limitations of static LLM knowledge  
 - Comparing direct OpenAI API usage vs LangChain abstraction  
 
-📓 Notebook:
+Notebook:
 - `testopenaiapi_and_langchain.ipynb`
 
----
-
-### 🔹 Prompt Templates
+### Prompt Templates
 - Creating reusable prompt templates  
 - Dynamic prompt formatting using variables  
 - Reducing prompt duplication  
 - Improving prompt consistency for production workflows  
 
-📓 Notebook:
+Notebook:
 - `testopenaiapi_and_langchain.ipynb`
 
----
-
-### 🔹 LangChain Agents & Tools
+### LangChain Agents & Tools
 - Understanding agent-based reasoning  
 - Using `ZERO_SHOT_REACT_DESCRIPTION` agent  
 - Integrating external tools with LangChain  
@@ -207,12 +199,10 @@ https://github.com/eugeneyan/open-llms
 - Factual lookups using **Wikipedia tool**  
 - Answering real-time/current-affairs questions  
 
-📓 Notebook:
+Notebook:
 - `testopenaiapi_and_langchain.ipynb`
 
----
-
-### 🔹 LangChain Chains
+### LangChain Chains
 - Understanding chains  
 - `LLMChain` for single-step workflows  
 - `SimpleSequentialChain` for pipelines  
@@ -220,46 +210,41 @@ https://github.com/eugeneyan/open-llms
 - Passing outputs between chains  
 - End-to-end reasoning pipelines  
 
-📓 Notebook:
+Notebook:
 - `testopenaiapi_and_langchain.ipynb`
 
 ---
 
-### 🔹 Document Loaders
+### Document Loaders
 - Loading PDFs using `PyPDFLoader`  
 - Splitting documents into pages  
 - Preparing documents for downstream GenAI tasks  
 - Understanding RAG-style workflows  
 
-📓 Notebook:
+Notebook:
 - `testopenaiapi_and_langchain.ipynb`
 
----
-
-### 🔹 Memory in LangChain
+### Memory in LangChain
 - ConversationBufferMemory  
 - ConversationBufferWindowMemory  
 - ConversationChain  
 - Context-aware chatbot behavior  
 
-📓 Notebook:
+Notebook:
 - `langchain.ipynb`
 
----
 
-### 🔹 Hugging Face Models
+### Hugging Face Models
 - Using open-source models via Hugging Face Hub  
 - Running models without OpenAI dependency  
 - `google/flan-t5-large`  
 - Comparing closed-source vs open-source LLMs  
 - Understanding model limitations  
 
-📓 Notebook:
+Notebook:
 - `LangChain_Course+_Complete.ipynb`
 
----
-
-### 🔹 Vector Databases
+### Vector Databases
 
 **Concepts Covered:**
 - What embeddings are and why they are needed  
@@ -276,12 +261,10 @@ https://github.com/eugeneyan/open-llms
   - Recommendation systems
   - Chatbots with memory
 
- 📄 **Detailed Explanation PDF (Added to Repository):**
+**Detailed Explanation PDF (Added to Repository):**
 - `Vector_Databases_and_Embeddings_Explained.pdf`
 
----
-
-### 🔹 Embeddings (Text, Words, Objects)
+### Embeddings (Text, Words, Objects)
 - Understanding embeddings as numerical vector representations  
 - Converting:
   - Text → Vector  
@@ -290,9 +273,7 @@ https://github.com/eugeneyan/open-llms
 - Full pipeline learned:
   Data → Embeddings → Vector Database
 
----
-
-### 🔹 Pinecone (Managed Vector Database)
+### Pinecone (Managed Vector Database)
 
 - Creating a Pinecone index
 - Choosing vector dimensions and similarity metrics
@@ -302,48 +283,40 @@ https://github.com/eugeneyan/open-llms
 - Understanding how Pinecone fits into **RAG architectures**
 - Scaling vector search for large datasets
 
-📓 Notebook:
+Notebook:
 - `Pineconevectordb.ipynb`
 
 This notebook demonstrates **hands-on usage of Pinecone** for real-world vector search scenarios.
 
----
-
-### 🔹 ChromaDB (Local Vector Database)
+### ChromaDB (Local Vector Database)
 - Using ChromaDB for local vector storage  
 - Storing document embeddings  
 - Performing similarity search  
 - Integrating ChromaDB with LangChain retrievers  
 
-📓 Notebook:
+Notebook:
 - `chromadb.ipynb`
 
----
-
-### 🔹 Retrieval-Augmented Generation (RAG)
+### Retrieval-Augmented Generation (RAG)
 - End-to-end RAG architecture  
 - Flow:
   Documents → Embeddings → Vector DB → Retriever → LLM → Answer  
 - LLM answers using retrieved context instead of memorization  
 
-📄 Diagram:
+Diagram:
 - RAG architecture using ChromaDB & OpenAI (PDF)
 
----
-
-### 🔹 LLaMA 2 with LangChain
+### LLaMA 2 with LangChain
 - Running **open-source LLMs locally**
 - Using LLaMA-2 with LangChain
 - Understanding hardware & memory constraints
 - Difference between closed-source (OpenAI) vs open-source models
 
-📓 Notebooks:
+Notebooks:
 - `How_to_run_Llama_2.ipynb`
 - `Llama_2_LangChain.ipynb`
 
----
-
-### 🔹 Hugging Face + LangChain Integration
+### Hugging Face + LangChain Integration
 - Learned how to use **open-source LLMs from Hugging Face** with LangChain
 - Running **local Hugging Face models** using `HuggingFacePipeline`
 - Understanding **local inference vs hosted inference**
@@ -351,12 +324,10 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - Running large models **without local GPU dependency**
 - Managing **Hugging Face API tokens** securely via environment variables
 
-📓 Notebook:
+Notebook:
 - `Huggingface-Langchain.ipynb`
 
----
-
-### 🔹 LlamaIndex (Data Framework for LLMs)
+### LlamaIndex (Data Framework for LLMs)
 - Understanding **LlamaIndex as a data framework for LLM applications**
 - Connecting **custom data sources** to LLMs
 - Indexing documents for semantic search
@@ -365,12 +336,12 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - Using LlamaIndex for **RAG-style workflows**
 - Building query engines on top of indexed data
 
-📓 Notebook:
+Notebook:
 - `test.ipynb`
 
 ---
 
-### 🔹 Amazon Bedrock (Managed GenAI Platform)
+### Amazon Bedrock (Managed GenAI Platform)
 - Understanding **Amazon Bedrock** as a fully managed GenAI service on AWS
 - Accessing **multiple foundation models (FMs)** via a **single API**
 - Exploring models from:
@@ -385,9 +356,7 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - Private model customization using **fine-tuning**
 - Building **AI agents** that interact with enterprise systems & data
 
----
-
-### 🔹 LLM Fine-Tuning (LoRA, QLoRA & Quantization)
+### LLM Fine-Tuning (LoRA, QLoRA & Quantization)
 - Understanding **why fine-tuning is needed** vs prompt engineering
 - Learning the **end-to-end roadmap for LLM fine-tuning**
 - Difference between:
@@ -407,12 +376,7 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
   - Latency
   - Cost
 
-
----
-
----
-
-### 🔹 CrewAI – Multi-Agent Systems
+### CrewAI – Multi-Agent Systems
 
 - Learned how to build **multi-agent AI systems**
 - Understanding difference between:
@@ -432,9 +396,7 @@ This notebook demonstrates **hands-on usage of Pinecone** for real-world vector 
 - Crew orchestration (Agents + Tasks + Tools)
 - Autonomous workflow execution
 
----
-
-### 🔹 LangGraph – Stateful & Tool-Enabled AI Systems
+### LangGraph – Stateful & Tool-Enabled AI Systems
 
 Learned how to build **stateful, multi-actor LLM applications** using LangGraph.
 
@@ -444,9 +406,7 @@ LangGraph extends LangChain by enabling:
 - Conditional routing
 - Agent-style runtime control
 
----
-
-## 🛠 Tech Stack Used
+## Tech Stack Used
 
 ### 🔹 Programming & Frameworks
 - Python  
