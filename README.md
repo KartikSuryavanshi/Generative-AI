@@ -116,7 +116,7 @@ Notebook:
 
 <img width="1046" height="611" alt="Screenshot 2026-01-20 at 10 09 40 AM" src="https://github.com/user-attachments/assets/1c04eff9-2eb2-41b6-b454-12b9c7cb5e20" />
 
-# Open LLMs:
+# Open LLMs
 https://github.com/eugeneyan/open-llms
 
 ## Topic's covered
